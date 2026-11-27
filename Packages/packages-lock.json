@@ -1,14 +1,14 @@
 {
   "dependencies": {
     "com.dakgg.ui": {
-      "version": "https://github.com/dakgg/ui.git",
+      "version": "https://github.com/dakgg/ui.git?path=/com.dakgg.ui#0.3.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.addressables": "1.19.19",
         "com.unity.inputsystem": "1.14.2"
       },
-      "hash": "caf45aed5fc0d7c2ac74976c6865cd6cc033b598"
+      "hash": "d55716f857e56401702ffcbcd2e6dc1847d16329"
     },
     "com.unity.2d.animation": {
       "version": "11.0.0",

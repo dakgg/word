@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.dakgg.ui": "https://github.com/dakgg/ui.git",
+    "com.dakgg.ui": "https://github.com/dakgg/ui.git?path=/com.dakgg.ui#0.3.0",
     "com.unity.2d.animation": "11.0.0",
     "com.unity.2d.aseprite": "1.2.5",
     "com.unity.2d.psdimporter": "10.1.1",
