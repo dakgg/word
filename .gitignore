@@ -1,0 +1,49 @@
+# Unity generated directories
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Bb]uild/
+[Bb]uilds/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+.gradle/
+
+# IDE and generated solution files
+.vs/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.sln.docstates
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity crash reports and exported packages
+sysinfo.txt
+mono_crash.*
+crashlytics-build.properties
+*.unitypackage
+
+# Local secrets and OS files
+.env
+.env.*
+!.env.example
+!.env.sample
+.DS_Store
+._*
+Thumbs.db
+
+.vscode/
