@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 474832332803549679}
   - component: {fileID: 8791764711211137605}
   - component: {fileID: 2423477765620844218}
+  - component: {fileID: 5888189093102835380}
   m_Layer: 5
   m_Name: LogoPage
   m_TagString: Untagged
@@ -31,6 +32,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1745862053259027976}
   - {fileID: 3691403078050392513}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -90,6 +92,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_OpenAnimationSets: []
+  UIAnimation: {fileID: 5888189093102835380}
+--- !u!114 &5888189093102835380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3670987854088533140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b404152c565a8a548a6a1af3003295d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationToPlay: {fileID: 7400000, guid: 53c05462146334b50a0765ea70faa245, type: 2}
+  AutoPlay: 1
+  AutoPlayOnlyVisible: 0
+  DelayOnFirstFrame: 0
+  LoopOffsetRatio: 0
+  EditingClips: []
+--- !u!1 &6025205626816685729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1745862053259027976}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1745862053259027976
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6025205626816685729}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2616124369085804534}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7130396356171321468
 GameObject:
   m_ObjectHideFlags: 0
@@ -101,6 +157,7 @@ GameObject:
   - component: {fileID: 3691403078050392513}
   - component: {fileID: 7296725446902666950}
   - component: {fileID: 4506190790976448151}
+  - component: {fileID: 896172340129873001}
   m_Layer: 5
   m_Name: Logo
   m_TagString: Untagged
@@ -155,7 +212,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 3060029325220490648, guid: 72e4dee8a4b8440a0a237fbeb0728250, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -165,3 +222,15 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!225 &896172340129873001
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7130396356171321468}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
