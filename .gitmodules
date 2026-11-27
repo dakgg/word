@@ -1,0 +1,3 @@
+[submodule "docs/word_design"]
+	path = docs/word_design
+	url = https://github.com/dakgg/word_design.git
